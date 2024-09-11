@@ -1,0 +1,348 @@
+.grid-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: repeat(9, 150px);
+    margin-top: 25px;
+
+}
+.home-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    
+}
+#origin{
+    font-size: large;
+}
+
+#insta{
+    margin: 0 auto;
+}
+
+
+.grid-container-home{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 350px);
+    margin: 0 auto;
+}
+#blue{
+    background-color: lightblue;
+}
+#yellow{
+    background-color: lightyellow;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+  
+.side {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.side2{
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+ 
+  
+  .grid-container>div {
+    border: 1px solid lightblue;
+  }
+  
+.mid{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightyellow;
+}
+
+
+.grid-item{
+    margin: 20px auto;
+    
+}
+
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue
+}
+.cont1-img{
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    margin: 25px auto;
+    background-color: lightblue
+}
+#big{
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 7%;
+    margin: 50px -5px 0px 2px;
+  }
+  .verticalLine {
+    border-left: 5px dotted #ff0000;
+    height:100px;
+  }
+h1{
+    width: 100%;
+    margin: auto;
+    min-width: none;
+    min-width: 20%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar{
+    background: rgb(14, 13, 13); padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: center;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+    text-decoration: none;
+}
+.oval {
+    
+    height: 75px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+#intro{
+    width: 100%;
+    padding-top: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+h3{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.box {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    border: 1px solid lightgrey; 
+}
+.box#wid{
+    background-color: dodgerblue;
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    border: 1px solid lightgrey;
+}
+
+
+#space-around{
+    justify-content: space-around;
+}
+
+#music{
+    height: 100px;
+    width: 175px;
+}
+#grass{
+    height: 100px;
+    width: 150px;
+}
+#window{
+    height: 100px;
+    width: 150px;
+}
+a{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/652/851/original/minimalist-leaf-background-design-there-is-an-empty-place-for-writing-free-vector.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%
+    margin-top: 60px;
+}
+
+.banner#ht{
+    height: 200px;
+}
+
+#journey{
+    text-align: center;
+    margin: auto
+}
+#journey-t{
+    padding-top: 80px;
+}
+.mid img{
+    border: solid black;
+}
+#intro{
+    background-color: lightyellow;
+}
+
+@media only screen and (min-width:651px){
+    #bhide{
+        visibility: collapse;
+    }
+    #grid-t{
+        color: white;
+        width: 33px;
+        height: 33px;
+        border: 2px solid #242424;
+        border-left: 0;
+        border-top: 0;
+        transform: rotate(45deg);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 650px){
+    
+    #bhide{
+        visibility: collapse;
+    }
+    #grid-t{
+        background-color: lightblue;
+    }
+    #music{
+        height: 75px;
+        width: 150px;
+        padding-left: 10px;
+    }
+    #grass{
+        padding-left: 10px;
+        width: 200px;
+    }
+    #window{
+        padding-left: 10px;
+        height:75px
+    }
+    #t{
+        padding-left: 20px;
+    }
+    #hide{
+        visibility: collapse;
+    }
+    .banner{
+        background-image: url("https://marketplace.canva.com/EAFDL6gbGVM/1/0/1600w/canva-green-minimalist-illustrated-landscape-desktop-wallpaper-UwgW9eDIQrQ.jpg");
+        height: 500px;
+        width: 100;
+        background-position: top;
+    }
+    .pad{
+        padding-top: 300px;
+    }
+    .side{
+        visibility: collapse;
+    }
+    #connect{
+        padding-left: 150px;
+        border: none;
+    }
+    #canva{
+        padding-right: 100px;
+        border: none;
+    }
+    #mic{
+        padding-right: 150px;
+        border: none;
+    }
+}
+
+
+
+
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.text2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: -17.5px;
+    margin-right: 17.5px;
+    letter-spacing: 0.5px;
+}
+
+.story{
+    background-color: aliceblue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-align: left;
+    line-height: 200%;
+}
