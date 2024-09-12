@@ -269,13 +269,30 @@ a{
         margin-right: auto;
         margin-top: 50px;
     }
+    #grid-tt{
+        color: white;
+        border: none;
+    }
 }
 @media only screen and (max-width: 650px){
+    .oval {
+    
+        height: 75px;
+        width: 350px;
+        background-color: white;
+        border-radius: 10px;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
     
     #bhide{
         visibility: collapse;
     }
     #grid-t{
+        background-color: lightblue;
+    }
+    #grid-tt{
         background-color: lightblue;
     }
     #music{
